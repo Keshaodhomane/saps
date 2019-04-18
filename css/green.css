@@ -1,0 +1,93 @@
+/* background:#393F28 hara */
+/* background:#CDA450 pila */
+/* background:#646C49  lite hara */
+
+.topstrip{
+
+    background:#000;
+    
+    }
+    
+.applyforadmission
+{
+    background:#0C7918;
+
+}
+
+
+.activity-bottom
+{
+    background: url(../images/green/activities-bottom.svg) no-repeat center bottom;
+  
+}
+
+
+.bannerbottom
+{
+    position: absolute;
+    height: 150px;
+    width: 100%;
+    display: block;
+    left: 0;
+    bottom: 0;
+    background: url(../images/green/banner-bottom.svg) no-repeat center top;
+    z-index: 9;
+    background-size: 100% auto;
+
+}
+
+
+.bottomcurvedbg
+{
+    background: url(../images/green/bottom-curved-bg.svg) repeat-x center bottom;
+    
+}
+
+
+.newseventbox
+{
+    background: url(../images/green/news-event-box.svg) no-repeat center center;
+ 
+}
+
+
+.topstrip1
+{
+    position: relative;
+    width: 100%;
+    background: url(../images/green/topbg.svg) no-repeat center bottom;
+    background-size: cover;
+    height: 112px;
+    display: block;
+    z-index: 9999;
+}   
+
+
+.topcurvedbg
+{
+    background: url(../images/green/top-curved-bg.svg) repeat-x center top;
+    
+}
+
+
+
+.newtabs > .nav-item > .nav-link
+{
+background: #0C7918;
+color: #BFAF80;
+border-radius: 0;
+padding: 10px 20px;
+border: none;
+}
+
+
+.brown-bg
+{
+    background: #0C7918;
+}
+
+
+.newtabs > .nav-item > .active, .purple-dark-bg
+{
+    background: #06430D;
+}

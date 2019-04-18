@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed');
+
+html, body
+{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto Condensed";
+    min-height: 100%;
+    width: 100%;
+    position: relative;
+
+}
+
+
+
+
+
+.topstrip1
+{
+    position: relative;
+    width: 100%;
+    background: url(../images/topbg.svg) no-repeat center bottom;
+    background-size: cover;
+    height: 112px;
+    display: block;
+    z-index: 9999;
+}   
+
+
+.nav-item >.nav-link  
+{
+    font-weight: bold !important;
+    color: #BFAF80 !important;
+}
+
+
+.active > .nav-link
+{
+    color: #F2EEB3 !important;
+}
+
+
+.btn-brown
+{
+    background: #59323C;
+    color: #F2EEB3; 
+}
+
+.btn-brown:hover
+{
+    color: #fff;
+}
+
+
+.banner
+{
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    margin-top: -5px;
+}
+
+.bannerbottom
+{
+    position: absolute;
+    height: 150px;
+    width: 100%;
+    display: block;
+    left: 0;
+    bottom: 0;
+    background: url(../images/banner-bottom.svg) no-repeat center top;
+    z-index: 9;
+    background-size: 100% auto;
+
+}
+
+.brown-text
+{
+    color: #59323C;
+}
+
+.bg-yellow
+{
+    background: #F2EEB3;
+}
+
+p
+{
+    font-size: 0.9em;
+    color: #666666;
+}
+
+
+.btn-yellow
+{
+    background: url(../images/icon-button.svg) no-repeat left center;
+    color: #fff;
+    box-shadow: none;
+}
+
+
+.applyforadmission
+{
+    background: url(../images/brown-bg.jpg) repeat-x center center;
+    min-height: 300px;
+    display: grid;
+
+
+}
+
+.text-yellow
+{
+    color:#BFAF80;
+}
+
+
+.applyforadmission > div
+{
+    align-self: center;
+}
+
+.btn-warning
+{
+    background: #BFAF80;
+    border:none;
+}
+
+
+.newtabs > .nav-item > .nav-link
+{
+    background: #59323C;
+    color: #BFAF80;
+    border-radius: 0;
+    padding: 10px 20px;
+    border: none;
+}
+
+.newtabs > .nav-item > .active
+{
+    background: #260126;
+    color: #BFAF80;
+    border-radius: 0;
+}
+
+.newcontent
+{
+    background: #fff;
+}
+
+
+.brown-bg
+{
+    background: #59323C;
+}
+
+.purple-dark-bg
+{
+    background: #260126;
+}
+
+
+.form-container input
+{
+    background: #F2EEB3;
+}
+.form-container textarea
+{
+    background: #F2EEB3;
+}
+
+
+.form-container select
+{
+    background: #F2EEB3;
+}
+
+.topcurvedbg
+{
+    background: url(../images/top-curved-bg.svg) repeat-x center top;
+    min-height: 60px;
+}
+
+
+.bottomcurvedbg
+{
+    background: url(../images/bottom-curved-bg.svg) repeat-x center bottom;
+    min-height: 60px;
+}
+.activityimg
+{
+    border-radius:  0 0 0 0 ;
+}
+
+.activity-bottom
+{
+    background: url(../images/activities-bottom.svg) no-repeat center bottom;
+    background-size: 100% auto;
+    display:block;
+    min-height: 131px;
+}
+
+
+
+.btn-dark-yellow
+{
+    background: url(../images/btn-dark-yellow.svg) no-repeat left center;
+    color: #fff;
+    box-shadow: none;
+    font-size: 1em;
+}
+
+
+.activityimg
+{
+    border-radius: 60px 0 0 0;
+}
+
+.mxwd
+{
+    max-width: 350px;
+}
+
+.saps-logo
+{
+    background: url(../images/saps-logo.png) no-repeat left center;
+    background-size: 60px;
+    padding-left: 65px;
+    font-weight: bold;
+    font-family: "roboto condensed";
+    font-size: 11px;
+    display: grid;
+    min-height: 60px;
+    color: #fff;
+}
+
+.saps-logo > div
+{
+    align-self: center;
+    justify-self: start;
+}
+
+.contactno
+{
+    background: url(../images/icon-contactno.svg) no-repeat left center;
+    background-size: 18px;
+    padding-left: 22px;
+    color: #fff;
+
+}
+
+
+.emailid
+{
+    background: url(../images/icon-email-id.svg) no-repeat left center;
+    background-size: 18px;
+    padding-left: 22px;
+    color: #fff;
+    
+}
+
+.bottomlinks, .bottomlinks li
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.bottomlinks li a
+{
+    display: block;
+    background: url(../images/icon-right-arrow.svg) no-repeat left center;
+    padding-left: 20px;
+    color: #fff;
+    background-size: 6px;
+}
+
+.toplogo
+{
+    background: url(../images/saps-logo.png) no-repeat left center;
+    background-size: 88px;
+    padding-left: 95px;
+    color: #fff;
+    min-height: 87px;
+    display: grid;
+}
+
+.toplogo > div
+{
+    align-self: center;
+}
+
+
+.toplogo h6
+{
+    color: #BFAF80;
+    font-family: "roboto";
+    font-size: 13px;
+    margin: 0;
+
+}
+
+
+.toplogo h1
+{
+    color: #fff;
+    font-family: "roboto condensed";
+    font-size: 22px;
+    margin: 0;
+
+    
+}
+
+
+.newseventbox
+{
+    background: url(../images/news-event-box.svg) no-repeat center center;
+    width: 413px;
+    height: 455px;
+    position: absolute;
+    display: block;
+    right:50px;
+    top:15px;
+}
+
+
+.newsgrid
+{
+    display: grid;
+    grid-template-columns: 60px auto;
+    grid-gap: 10px;
+    padding:10px 0;
+
+}
+
+.newsgrid > div:first-child
+{
+    background: #BFAF80;
+    padding: 5px;
+    color: #59323C;
+    font-size: 0.6em;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+.newsgrid > div:first-child > span
+{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+
+
+.topstrip{
+
+    height: 40px;
+    background: #000;
+}
+
+
+
+.allinline * {
+    font-size: 12px;
+}
+
+.allinline a,
+.allinline span {
+    color: #fff;
+    line-height: 30px;
+    display: inline-block;
+    *display: inline;
+    margin: 0 5px;
+}
+
+.skiptomain {
+    background: url(../images/downarrow_icon.svg) no-repeat center left;
+    background-size: 15px auto;
+    padding-left: 20px;
+}
+
+
+
+.skiptonav {
+    background: url(../images/downarrow_icon.svg) no-repeat center left;
+    background-size: 15px auto;
+    padding-left: 20px;
+}
+
+
+
+.screenreader {
+    background: url(../images/speaker_icon.svg) no-repeat center left;
+    background-size: 20px auto;
+    padding-left: 30px;
+}
+
+
+
+.black-css{  line-height: 22px !important; width: 20px; background: #6D6D6D; border-radius: 2px; border:1px solid rgba(255,255,255,0.4);}
+.blue-css{   line-height: 22px !important; width: 20px; background: #59323C; border-radius: 2px; border:1px solid rgba(255,255,255,0.4);}
+.green-css{  line-height: 22px !important; width: 20px; background: #1AA82A; border-radius: 2px; border:1px solid rgba(255,255,255,0.4);}
+.orange-css{ line-height: 22px !important; width: 20px; background: #D5473D; border-radius: 2px; border:1px solid rgba(255,255,255,0.4);}
