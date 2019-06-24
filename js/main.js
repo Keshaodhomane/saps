@@ -166,4 +166,42 @@ $(document).ready(function(){
       });
 
 
+
+
+
+      var t = new TimelineMax({paused:true});
+
+      t.set(".img1",{display:"none"})
+      t.set(".img2",{display:"none"})
+      t.set(".img1 div h2",{display:"none"})
+      t.set(".img1 div h1",{display:"none"})
+
+      t.from(".img1", 1, {display:"block", scale:4, autoAlpha:0, ease:Expo.easeOut})
+      t.from(".img1 h2", .5, {display:"block", scaleX:5,  autoAlpha:0, ease:Sine.easeOut})
+      t.from(".img1 h1", .5, {display:"block", scaleX:5,  autoAlpha:0, ease:Sine.easeOut})
+      t.to(".img1", 1, {autoAlpha:0, ease:Sine.easeOut}, "+=2")
+
+
+      t.from(".img2", 1, {display:"block", scale:4, autoAlpha:0, ease:Expo.easeOut})
+      t.from(".img2 h2", .5, {display:"block", scaleX:5,  autoAlpha:0, ease:Sine.easeOut})
+      t.from(".img2 h1", .5, {display:"block", scaleX:5,  autoAlpha:0, ease:Sine.easeOut})
+      t.to(".img2", 1, {autoAlpha:0, ease:Sine.easeOut}, "+=2")
+
+      t.play();
+      t.repeat(-1);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   });
